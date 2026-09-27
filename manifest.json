@@ -1,9 +1,0 @@
-﻿{
-  "name": "Series — Registro de entrenamiento",
-  "short_name": "Series",
-  "lang": "es",
-  "start_url": "./",
-  "display": "standalone",
-  "background_color": "#f6f7f2",
-  "theme_color": "#10251f"
-}
