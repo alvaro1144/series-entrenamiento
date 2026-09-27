@@ -1,4 +1,4 @@
-const CACHE = 'series-v4';
+const CACHE = 'series-v5';
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(['./', './index.html', './entreno.html', './manifest.json']))));
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET' || new URL(event.request.url).origin !== self.location.origin) return;
