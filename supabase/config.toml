@@ -1,0 +1,2 @@
+[functions.recognize-workout]
+verify_jwt = true
